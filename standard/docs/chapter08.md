@@ -2,7 +2,7 @@
 
 **Rule 1. 【推荐】底层数据结构是数组的集合，指定集合初始大小**
 
-底层数据结构为数组的集合包括 ArrayList，HashMap，HashSet，ArrayDequeue等。
+底层数据结构为数组的集合包括 ArrayList，HashMap，HashSet，ArrayDeque等。
 
 数组有大小限制，当超过容量时，需要进行复制式扩容，新申请一个是原来容量150% or 200%的数组，将原来的内容复制过去，同时浪费了内存与性能。HashMap/HashSet的扩容，还需要所有键值对重新落位，消耗更大。
 
